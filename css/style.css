@@ -1,0 +1,44 @@
+html {
+	background-color: #222;
+	transition: 0.3s;
+}
+
+.container {
+	width: 805px;
+	height: 805px;
+	font-size: 0;
+	background-color: none;
+	margin: 30px auto 0 auto;
+	padding: 0;
+	transition: 6s;
+	position: absolute;
+}
+
+.box {
+	background-color: #222;
+	width: 30px;
+	height: 30px;
+	margin: 0 5px 5px 0;
+	display: inline-block;
+	opacity: 0;
+	transition: 4s;
+}
+
+.blue {
+	background-color: #8AD3E0;
+}
+
+.green {
+	background-color: #ADD68C;
+}
+
+.red {
+	background-color: #FF6858;
+}
+
+#hires {
+	width: 805px;
+	height: 805px;
+	transition: 8s;
+	opacity: 0;
+}
